@@ -181,49 +181,124 @@
 
     <main>
         <!-- Deal Section -->
-        <section class="container mx-auto mb-24 mt-48">
-            <div class="flex flex-row justify-center items-center">
+        <section class="container mx-auto mb-4 lg:mb-24 mt-4 lg:mt-48">
+            <div class="flex flex-col lg:flex-row justify-center items-center space-y-5">
                 <!-- Deal Title -->
-                <div class="flex flex-col justify-items-start items-start gap-6 flex-1">
-                    <h2 class="text-5xl font-extrabold text-fruit-dark">Deal of the day</h2>
-                    <p class="text-base font-medium text-fruit-regular-60">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                <div class="flex flex-col justify-items-start items-center lg:items-start gap-2 lg:gap-6 flex-1">
+                    <h2 class="text-xl lg:text-5xl font-extrabold text-fruit-dark">Deal of the day</h2>
+                    <p class="text-sm px-8 lg:px-0 py-2 lg:text-base font-medium text-fruit-regular-60 text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- Deal Timer -->
-                <div class="flex flex-row justify-center items-center bg-white shadow-xl rounded-lg p-2 flex-1 space-x-4">
-                    <!-- Fruit 01 -->
+                <div class="flex flex-row justify-items-end items-center bg-white flex-shrink space-x-2 lg:space-x-4">
+                    <!-- Days -->
                     <div class="card w-full text-center space-y-2">
-                        <h2 class="text-5xl font-extrabold text-fruit-dark">29</h2>
+                        <h2 class="text-3xl lg:text-5xl font-extrabold text-fruit-dark">29</h2>
                         <h2 class="text-base font-medium text-fruit-regular-60">Days</h2>
                     </div>
-                    <div>
+                    <div class="pb-8">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <!-- Fruit 02 -->
+                    <!-- Hours -->
                     <div class="card w-full text-center space-y-2">
-                        <h2 class="text-5xl font-extrabold text-fruit-dark">15</h2>
+                        <h2 class="text-3xl lg:text-5xl font-extrabold text-fruit-dark">15</h2>
                         <h2 class="text-base font-medium text-fruit-regular-60">Hours</h2>
                     </div>
-                    <div>
+                    <div class="pb-8">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <!-- Fruit 03 -->
+                    <!-- Minutes -->
                     <div class="card w-full text-center space-y-2">
-                        <h2 class="text-5xl font-extrabold text-fruit-dark">25</h2>
+                        <h2 class="text-3xl lg:text-5xl font-extrabold text-fruit-dark">25</h2>
                         <h2 class="text-base font-medium text-fruit-regular-60">Minutes</h2>
                     </div>
-                    <div>
+                    <div class="pb-8">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <!-- Fruit 04 -->
+                    <!-- Seconds -->
                     <div class="card w-full text-center space-y-2">
-                        <h2 class="text-5xl font-extrabold text-fruit-dark">08</h2>
+                        <h2 class="text-3xl lg:text-5xl font-extrabold text-fruit-dark">08</h2>
                         <h2 class="text-base font-medium text-fruit-regular-60">Seconds</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card container -->
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-4 lg:mx-0 px-2 my-8">
+                <!-- Apples -->
+                <div class="card p-12 border border-fruit-light-10 text-center">
+                    <figure><img src="./images/fruit6.png" alt="Apples" /></figure>
+                    <div class="card-body justify-center space-y-4">
+                        <h2 class="text-2xl font-bold fruit-dark">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="fruit-regular-60 text-base font-medium">Apples</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                        </div>
+                        <p class="text-fruit-primary text-lg font-bold">Details</p>
+                    </div>
+                </div>
+
+                <!-- Orange -->
+                <div class="card p-12 border border-fruit-light-10 text-center">
+                    <figure><img src="./images/fruit7.png" alt="Orange" /></figure>
+                    <div class="card-body justify-center space-y-4">
+                        <h2 class="text-2xl font-bold fruit-dark">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="fruit-regular-60 text-base font-medium">Orange</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                        </div>
+                        <p class="text-fruit-primary text-lg font-bold">Details</p>
+                    </div>
+                </div>
+
+                <!-- Red Dragon -->
+                <div class="card p-12 border border-fruit-light-10 text-center">
+                    <figure><img src="./images/fruit8.png" alt="Red Dragon" /></figure>
+                    <div class="card-body justify-center space-y-4">
+                        <h2 class="text-2xl font-bold fruit-dark">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="fruit-regular-60 text-base font-medium">Red Dragon</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                        </div>
+                        <p class="text-fruit-primary text-lg font-bold">Details</p>
+                    </div>
+                </div>
+
+                <!-- Banana -->
+                <div class="card p-12 border border-fruit-light-10 text-center">
+                    <figure><img src="./images/fruit9.png" alt="Banana" /></figure>
+                    <div class="card-body justify-center space-y-4">
+                        <h2 class="text-2xl font-bold fruit-dark">12.90$ - 18.85$</h2>
+                        <hr>
+                        <p class="fruit-regular-60 text-base font-medium">Banana</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-secondary" />
+                        </div>
+                        <p class="text-fruit-primary text-lg font-bold">Details</p>
                     </div>
                 </div>
             </div>
